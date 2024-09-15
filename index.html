@@ -4,8 +4,99 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/main.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="form-container">
+      <form action="example.html" method="post">
+        <h1>Dream Job</h1>
+        <h2>Fantasy Career Survey</h2>
+        <br /><br />
+
+        <label for="message"
+          >In your dream job, what would your title be?</label
+        >
+        <br /><br />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="e.g Chief Unicorn Officer, Lord of All, Wizard of Code, Meme Curator"
+        ></textarea>
+        <br /><br />
+        <label>What Kind of Coworkers Would You Want to Have?</label>
+        <br /><br />
+        <input
+          type="checkbox"
+          id="wizards"
+          name="coworkers"
+          value="Wizards and Witches"
+        />
+        <label for="wizards">Fellow Wizards and Witches</label>
+        <br /><input
+          type="checkbox"
+          id="animals"
+          name="coworkers"
+          value="Talking Animals"
+        />
+        <label for="animals">Talking Animals</label>
+        <br /><input
+          type="checkbox"
+          id="superheroes"
+          name="coworkers"
+          value=" Superheroes in Disguise"
+        />
+        <label for="superheroes">Superheroes in Disguise</label>
+        <br /><input
+          type="checkbox"
+          id="snackspeople"
+          name="coworkers"
+          value="People Who Bring Snacks to Meetings"
+        />
+        <label for="snackspeople">People Who Bring Snacks to Meetings</label>
+        <br /><br />
+        <label for="firstname">Firstname</label>
+        <br /><br />
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="Firstname"
+        />
+        <br /><br />
+        <label for="lastname">Lastname</label>
+        <br /><br />
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          placeholder="Lastname"
+        />
+        <br /><br />
+        <label for="email">Email</label>
+        <br />
+        <input type="email" id="email" name="email" placeholder="Email" />
+        <br /><br />
+        <label>What's your gender?</label>
+        <br /><br />
+        <input type="radio" id="gendermale" name="gender" value="Male" />
+        <label for="gendermale">Male</label>
+        <input type="radio" id="genderfemale" name="gender" value="Female" />
+        <label for="genderfemale">Female</label>
+        <input type="radio" id="gendernone" name="gender" value="None" />
+        <label for="gendernone">None</label>
+        <input type="radio" id="genderunicorn" name="gender" value="Unicorn" />
+        <label for="genderunicorn">Unicorn</label>
+        <br /><br />
+        <br />
+        <button type="submit" value="submit">Submit</button>
+      </form>
+    </main>
+  </body>
 </html>
